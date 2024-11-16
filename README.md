@@ -1,7 +1,7 @@
 # product-recommendation
 This repository features a Product Recommendation Dashboard using Python and Streamlit. It leverages the Online Retail dataset, containing UK retail transaction data, to provide personalized product suggestions. By employing content-based filtering, the dashboard demonstrates the use of machine learning in enhancing retail experiences.
 
-Dataset Details
+**Dataset Details**
 
 The dataset used is the Online Retail dataset, which includes the following key attributes:
 
@@ -23,7 +23,7 @@ CustomerID: Unique identifier for each customer.
 Country: Country where the customer resides.
 
 
-How It Works
+**How It Works**
 
 Data Loading and Preprocessing:The dataset is read into a pandas DataFrame, and relevant features like Description and CustomerID are used to build a content-based recommendation model.
 
@@ -31,7 +31,7 @@ Recommendation Model: The system combines product descriptions into a single tex
 
 Interactive Dashboard: Users can input their Customer ID to receive personalized recommendations. The dashboard also displays a sample of the dataset and provides feedback if the entered ID does not exist in the dataset.
 
-Libraries Used
+**Libraries Used**
 
 Streamlit: For creating the interactive dashboard.
 
@@ -43,7 +43,8 @@ numpy: For numerical computations.
 
 openpyxl: For reading Excel files.
 
-Steps to Run the Project
+
+**Steps to Run the Project**
 
 Clone the Repository:
 
@@ -84,7 +85,8 @@ Open your browser and navigate to the local URL provided in the terminal, typica
 Interact with the Dashboard:
 Enter a valid Customer ID to get product recommendations, or explore the dataset using the provided interface.
 
-Future Enhancements
+**Future Enhancements**
+
 Future iterations of this project could include:
 
 Adding collaborative filtering techniques to complement the content-based model,
